@@ -40,3 +40,7 @@ checkout to main branch
 Now merge feature with main branch
 5.git merge feature
 
+Now make some changes into main branch
+delete the feature branch
+6.git branch -d feature
+
