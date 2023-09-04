@@ -44,3 +44,5 @@ Now make some changes into main branch
 delete the feature branch
 6.git branch -d feature
 
+This is all about branching and merging
+
