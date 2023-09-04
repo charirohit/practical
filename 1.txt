@@ -19,9 +19,24 @@
 2.git add 3.txt
 
 -Now commit the changes made back into the remote repo:
+First we need to generate token for comminting
+1.git remote set-url origin https://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@github.com/charirohit/practical
+2.git push origin main
+
 METHOD 1:first add all the files into the staging area using git add command and then execute the following command this will commit files together
 1.git commit
 METHOD 2:commit all files separately using following command
 2.git commit (filename) -m "commited" (-m is used to pass any comments while commiting")
 
+-Branching and Merging:
+1.git branch feature(to create a branch)
+2.git branch -a (to list all the branches created)
+3.git checkout feature(to change into feature branch)
+
+Make some changes and commit the branch
+checkout to main branch
+4.git checkout main
+
+Now merge feature with main branch
+5.git merge feature
 
