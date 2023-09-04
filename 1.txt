@@ -1,0 +1,27 @@
+-To create a environment in terminal:
+1.git config --global user.name "charirohit"
+2.git config --global user.email "charirohit2003@gmail.com"
+
+-Now cloning the repo from remote repo to our system:
+1.git clone https://github.com/charirohit/practical.git
+
+-Now change into the repo:
+1.cd practical
+
+-Creation of file:
+1.touch 1.txt
+
+-Checking status of the repo:
+1.git status
+
+-Adding changed file into staging area:
+1.git add 1.txt 2.txt (adding two files at the same time)
+2.git add 3.txt
+
+-Now commit the changes made back into the remote repo:
+METHOD 1:first add all the files into the staging area using git add command and then execute the following command this will commit files together
+1.git commit
+METHOD 2:commit all files separately using following command
+2.git commit (filename) -m "commited" (-m is used to pass any comments while commiting")
+
+
